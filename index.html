@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <img src="./assets/SPLITTER.svg" alt="Splitter" />
+    <form id="form">
+      <!-- ===== INPUTS ===== -->
+      <div class="inputs">
+        <!-- ===== BILL ===== -->
+        <div class="bill">
+          <h4>Bill</h4>
+          <!-- ===== BILL-INPUT ===== -->
+          <div class="bill__input">
+            <img src="./assets/$.svg" alt="" />
+            <input type="number" placeholder="0" />
+          </div>
+          <!-- ===== BILL-INPUT ===== -->
+        </div>
+        <!-- ===== BILL ===== -->
+
+        <!-- ===== TIP ===== -->
+        <div class="tip">
+          <h4>Select a tip %</h4>
+          <div class="tip__buttons">
+            <button>5%</button>
+            <button>10%</button>
+            <button>15%</button>
+            <button>25%</button>
+            <button>50%</button>
+            <input type="number" placeholder="Custom" />
+          </div>
+        </div>
+        <!-- ===== TIP ===== -->
+
+        <!-- ===== PEOPLE ===== -->
+        <div class="people">
+          <h4>Number of people</h4>
+          <div class="people__input">
+            <img src="./assets/Group 8.svg" alt="number of people" />
+            <input type="number" placeholder="0" />
+          </div>
+        </div>
+        <!-- ===== PEOPLE ===== -->
+      </div>
+      <!-- ===== INPUTS ===== -->
+
+      <!-- ===== RESULTS ===== -->
+      <div class="results">
+        <div class="results__numbers">
+          <div class="results__tip-amount">
+            <div class="results__tip-amount-text">
+              <p>Tip Amount</p>
+              <span>/ person</span>
+            </div>
+            <span class="results__tip-amount-number">$4.27</span>
+          </div>
+          <div class="results__total">
+            <div class="results__total-text">
+              <p>Total</p>
+              <span>/ person</span>
+            </div>
+            <span class="results__total-number">$32.79</span>
+          </div>
+        </div>
+        <button>RESET</button>
+      </div>
+      <!-- ===== RESULTS ===== -->
+    </form>
+  </body>
+</html>
